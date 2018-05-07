@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  <image src='http://123.207.126.234/image/%E9%82%80%E8%AF%B7%E5%87%BD.jpg' class='image'></image>
+</view>

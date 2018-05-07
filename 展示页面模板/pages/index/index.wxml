@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+  <video src='{{video}}' class='video' objectFit='fill' autoplay='true'></video>
+  <view class='images'>
+    <image src='{{image_1}}' class='image' mode='widthFix' lazy-load='true'></image>
+    <image src='{{image_2}}' class='image' mode='widthFix' lazy-load='true'></image>
+    <image src='{{image_3}}' class='image' mode='widthFix' lazy-load='true'></image>
+    <image src='{{image_4}}' class='image' mode='widthFix' lazy-load='true'></image>
+    <image src='{{image_5}}' class='image' mode='widthFix' lazy-load='true'></image>
+    <image src='{{image_6}}' class='image' mode='widthFix' lazy-load='true'></image>
+    <image src='{{image_7}}' class='image' mode='widthFix' lazy-load='true'></image>
+    <image src='{{image_8}}' class='image' mode='widthFix' lazy-load='true'></image>
+  </view>
+  <view class='body'>
+    <view class='body_inputs'>
+      <form bindsubmit='updateData'>
+        <input placeholder='宝宝姓名' class='body_input' name='name' value='{{name}}'></input>
+        <input placeholder='宝宝月龄' class='body_input' name='age' value='{{age}}' type='number'></input>
+        <input placeholder='家长联系电话' class='body_input' name='tel' value='{{tel}}' type='number'></input>
+        <button class='body_button' form-type='submit'>预约报名</button>
+      </form>
+    </view>
+  </view>
+  <map longitude='120.22122' latitude='30.19775' markers='{{marker}}' class='map' bindtap='mapclick'></map>
+  <button class='bottom_button' bindtap='makephone'>联系我们</button>
+</view>

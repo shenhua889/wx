@@ -1,0 +1,8 @@
+D:\wx\WebTest2\WebTest2\bin\WebTest2.dll.config
+D:\wx\WebTest2\WebTest2\bin\WebTest2.dll
+D:\wx\WebTest2\WebTest2\bin\WebTest2.pdb
+D:\wx\WebTest2\WebTest2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\wx\WebTest2\WebTest2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\wx\WebTest2\WebTest2\obj\Release\WebTest2.csproj.CoreCompileInputs.cache
+D:\wx\WebTest2\WebTest2\obj\Release\WebTest2.dll
+D:\wx\WebTest2\WebTest2\obj\Release\WebTest2.pdb
