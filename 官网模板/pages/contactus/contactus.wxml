@@ -1,0 +1,18 @@
+<!--pages/contactus/contactus.wxml-->
+<view class='container'>
+  <view class='top'>
+    <image src='http://123.207.126.234/image/contact-us.jpg' class='top_image'></image>
+  </view>
+  <view class='body'>
+    <text>
+      名称：中国邮政集团公司杭州市分公司
+      地址：环城东路11号
+
+      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    </text>
+  </view>
+  <view class='bottom'>
+    <map longitude='120.1835834' latitude='30.2462305' markers='{{marker}}' class='map' bindtap='mapclick'></map>
+  </view>
+</view>

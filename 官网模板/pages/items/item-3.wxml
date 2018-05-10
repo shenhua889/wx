@@ -1,0 +1,14 @@
+<!--pages/items/item-3.wxml-->
+<view class='container'>
+  <view class='body'>
+    <image src='http://123.207.126.234/image/item_3.jpg'></image>
+    <text>
+
+    
+      111111111111111111111
+      111111111111111111111111
+      111111111111111111111
+      111111111111111111
+    </text>
+  </view>
+</view>

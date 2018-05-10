@@ -1,0 +1,16 @@
+<!--pages/update/update.wxml-->
+<view class='container'>
+  <view class='head'>
+    <image src='http://123.207.126.234/image/item_1.jpg' class='head_image'></image>
+  </view>
+  <view class='body'>
+    <text class='body_text'>
+      请填写一下信息
+    </text>
+    <input placeholder='姓名' class='body_input'></input>
+    <input placeholder='联系方式' class='body_input'></input>
+    <input placeholder='定制内容' class='body_input'></input>
+    <textarea placeholder='备注' class='body_input'></textarea>
+    <button class='body_button'>提交内容</button>
+  </view>
+</view>

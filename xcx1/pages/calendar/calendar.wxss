@@ -1,0 +1,23 @@
+/* pages/calendar/calendar.wxss */
+.calendar{
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.piece{
+  width: 90rpx;
+  margin-top: 20rpx;
+  margin-left: 10rpx;
+  height: 90rpx;
+  border: solid 1rpx;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weeksbox{
+  display: flex;
+  margin-left: 30rpx;
+  width: 100%;
+}

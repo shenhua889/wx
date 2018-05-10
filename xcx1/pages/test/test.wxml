@@ -1,0 +1,15 @@
+<!--pages/test/test.wxml-->
+<view>
+  <label>姓名</label>
+  <text>{{name}}</text>
+</view>
+<view>
+  <label>电话</label>
+  <text>{{tel}}</text>
+</view><view>
+  <label>性别 </label>
+  <text>{{sexy}}</text>
+</view><view>
+  <label>邮箱</label>
+  <text>{{email}}</text>
+</view>

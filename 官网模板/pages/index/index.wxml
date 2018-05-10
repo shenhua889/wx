@@ -1,0 +1,58 @@
+<!--index.wxml-->
+<view class='container'>
+  <view style='width:100%'>
+    <swiper class='swiperBar' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{images}}">
+        <swiper-item>
+          <image src="{{item}}" class='swiperImg' />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='top'>
+    <view class='top_item'>
+      <image src='http://123.207.126.234/image/viewlist.png' class='png_image'></image>
+      <text class='png_text'>案例展示</text>
+    </view>
+    <view class='top_item'  bindtap='gotoupdate'>
+      <image src='http://123.207.126.234/image/edit.png' class='png_image'></image>
+      <text class='png_text'>提交信息</text>
+    </view>
+    <view class='top_item'  bindtap='gotocontact'>
+      <image src='http://123.207.126.234/image/map.png' class='png_image'></image>
+      <text class='png_text'>联系我们</text>
+    </view>
+  </view>
+  <view class='bottom'>
+    <view class='bottom_top'>
+      <image src='http://123.207.126.234/image/remind.png' class='bottom_top_image'></image>
+      <text class='bottom_top_text'>更多服务</text>
+    </view>
+    <view class='bottom_items'>
+      <view class='bottom_items_item' bindtap='gotoitem1'>
+        <image src='http://123.207.126.234/image/item_1.jpg' class='bottom_items_item_image'></image>
+        <text class='bottom_items_item_text'>名片设计</text>
+      </view>
+      <view class='bottom_items_item' bindtap='gotoitem2'>
+        <image src='http://123.207.126.234/image/item_2.jpg' class='bottom_items_item_image'></image>
+        <text class='bottom_items_item_text'>海报设计</text>
+      </view>
+      <view class='bottom_items_item' bindtap='gotoitem3'>
+        <image src='http://123.207.126.234/image/item_3.jpg' class='bottom_items_item_image'></image>
+        <text class='bottom_items_item_text'>广告设计</text>
+      </view>
+      <view class='bottom_items_item' bindtap='gotoitem1'>
+        <image src='http://123.207.126.234/image/item_1.jpg' class='bottom_items_item_image'></image>
+        <text class='bottom_items_item_text'>名片设计</text>
+      </view>
+      <view class='bottom_items_item' bindtap='gotoitem2'>
+        <image src='http://123.207.126.234/image/item_2.jpg' class='bottom_items_item_image'></image>
+        <text class='bottom_items_item_text'>海报设计</text>
+      </view>
+      <view class='bottom_items_item' bindtap='gotoitem3'>
+        <image src='http://123.207.126.234/image/item_3.jpg' class='bottom_items_item_image'></image>
+        <text class='bottom_items_item_text'>广告设计</text>
+      </view>
+    </view>
+  </view>
+</view>

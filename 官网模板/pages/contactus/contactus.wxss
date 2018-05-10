@@ -1,0 +1,15 @@
+/* pages/contactus/contactus.wxss */
+.top{
+
+}
+.top_image{
+  width: 750rpx;
+}
+.map{
+  width: 100%;
+  height: 500rpx;
+}
+.bottom{
+  width: 100%;
+  display: flex;
+}

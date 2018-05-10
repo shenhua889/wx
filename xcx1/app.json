@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test",
+    "pages/calendar/calendar"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "icon/all.png",
+        "selectedIconPath": "icon/all.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/calendar/calendar",
+        "iconPath": "icon/calendar.png",
+        "selectedIconPath": "icon/calendar.png",
+        "text": "日历"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

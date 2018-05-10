@@ -1,0 +1,34 @@
+/**index.wxss**/
+.body {
+  
+  width:90%;
+
+}
+.project {
+  flex-direction: row;
+  display: flex;
+  margin-top: 50rpx;
+  
+  border-bottom: 1px solid;
+}
+.userInfo{
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+.userInfo-avarat{
+  width: 200rpx;
+  height: 200rpx;
+}
+.label{
+  margin-left: 100rpx;
+  width:100rpx;
+}
+.textbox{
+  width:50rpx;
+  display: flex;
+  flex: 1;
+}
+.button_view{
+  margin-top: 80rpx;
+}

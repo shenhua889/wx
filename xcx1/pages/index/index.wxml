@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="body">
+    <view class='userInfo'>
+      <button wx:if='{{!hasUserInfo&&canIUse}}' open-type='getUserInfo' bindgetuserinfo='getUserInfo'>点击登录</button>
+      <block wx:else>
+        <image src='{{userInfo.avatarUrl}}' class='userInfo-avarat'></image>
+        <label>{{userInfo.nickName}}</label>
+      </block>
+    </view>
+    <view class='project' >
+      <label class='label'>姓名</label>
+      <input placeholder='输入姓名' name='xm' bindinput='inputxm'></input>
+    </view>
+    <view class='project' >
+      <label class='label'>电话</label>
+      <input placeholder='输入电话' maxlength='11' type='number' name='dh' bindinput='inputdh'></input>
+    </view>
+    <view class='project'>
+      <label class='label'>性别</label>
+        <radio-group bindchange='radioChange' name='xb'>
+          <label wx:for="{{sexyitems}}">
+            <radio value="{{item.value}}" checked="{{item.checked}}" />{{item.value}}
+          </label>
+        </radio-group>
+    </view>
+    <view class='project' >
+      <label class='label'>邮箱</label>
+      <input placeholder='输入邮箱' bindinput='inputyx' name='yx'></input>
+    </view>
+  </view>
+  <view class='button_view'>
+    <button class='button' bindtap='changepage'>按钮1</button>
+  </view>
+  <view class='button_view'>
+    <button class='button' bindtap='changeText'>{{motto}}</button>
+  </view>
+</view>

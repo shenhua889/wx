@@ -1,0 +1,25 @@
+/* pages/update/update.wxss */
+.head{
+  display: flex;
+}
+.head_image{
+  width: 750rpx;
+  height: 500rpx;
+}
+.body{
+  width: 750rpx;
+  display: flex;
+  flex-direction: column;
+}
+.body_input{
+  width: 740rpx;
+  border: solid 1rpx;
+  border-color: rgb(233, 233, 233);
+  margin: 5rpx;
+  margin-top: 20rpx;
+}
+.body_button{
+  width: 740rpx;
+  margin: 5rpx;
+  margin-top: 20rpx;
+}
