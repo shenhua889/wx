@@ -18,3 +18,5 @@ D:\wx\TestWebApi\TestWebApi\obj\Debug\TestWebApi.csprojResolveAssemblyReference.
 D:\wx\TestWebApi\TestWebApi\obj\Debug\TestWebApi.csproj.CoreCompileInputs.cache
 D:\wx\TestWebApi\TestWebApi\obj\Debug\TestWebApi.dll
 D:\wx\TestWebApi\TestWebApi\obj\Debug\TestWebApi.pdb
+D:\wx\TestWebApi\TestWebApi\bin\MySql.Data.dll
+D:\wx\TestWebApi\TestWebApi\bin\MySql.Data.xml

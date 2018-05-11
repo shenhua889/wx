@@ -10,7 +10,6 @@ App({
     wx.login({
       success: function(res){
         if(res.code){
-          console.log(res.code);
           wx.request({
             method:'POST',
             url: 'http://localhost:61192/api/paytest/GetLoginCode',
