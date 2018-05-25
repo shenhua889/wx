@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='top'>
+    <swiper class='swiper' autoplay='{{autoplay}}'>
+      <swiper-item>
+        <image class='swiper_item' src='{{swiper1}}'></image>
+      </swiper-item>
+      <swiper-item>
+        <image class='swiper_item' src='{{swiper2}}'></image>
+      </swiper-item>
+    </swiper>
+    <view class='top_bar'>
+      <view class='top_bar_item'>
+        <image class='top_bar_item_img' src='{{icon1}}'></image>
+        <text class='top_bar_item_text'>宪法学习</text>
+      </view>
+      <view class='top_bar_item'>
+        <image class='top_bar_item_img' src='{{icon2}}'></image>
+        <text class='top_bar_item_text'>学习风采</text>
+      </view>
+      <view class='top_bar_item'>
+        <image class='top_bar_item_img' src='{{icon3}}'></image>
+        <text class='top_bar_item_text'>学习书籍</text>
+      </view>
+      <view class='top_bar_item'>
+        <image class='top_bar_item_img' src='{{icon4}}'></image>
+        <text class='top_bar_item_text'>在线答题</text>
+      </view>
+    </view>
+  </view>
+  <view class='body'>
+    <view class='body_bar'>
+      <image class='body_bar_img' src='{{bar1}}' mode='aspectFill'></image>
+    </view>
+  </view>
+</view>

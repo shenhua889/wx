@@ -4,6 +4,15 @@ const app = getApp()
 
 Page({
   data: {
+    swiper1:'../../image/swiper-1.jpg',
+    swiper2:'../../image/swiper-2.jpg',
+    icon1: '../../image/宪法学习.png',
+    icon2: '../../image/学习风采.png',
+    icon3: '../../image/学习书籍.png',
+    icon4: '../../image/在线答题.png',
+    bar1:'../../image/banner-1.jpg',
+    bar2:'../../image/banner-2.jpg',
+    autoplay:true,
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
